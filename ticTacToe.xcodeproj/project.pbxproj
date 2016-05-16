@@ -12,6 +12,8 @@
 		0F08F5F61CE9978200546D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F08F5F41CE9978200546D4B /* Main.storyboard */; };
 		0F08F5F81CE9978200546D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F08F5F71CE9978200546D4B /* Assets.xcassets */; };
 		0F08F5FB1CE9978200546D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F08F5F91CE9978200546D4B /* LaunchScreen.storyboard */; };
+		0F08F6031CEA4E1300546D4B /* Jay_Ruzesky.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0F08F6021CEA4E1200546D4B /* Jay_Ruzesky.jpeg */; };
+		0F08F6051CEA4E1800546D4B /* Matthew_Wiebe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0F08F6041CEA4E1800546D4B /* Matthew_Wiebe.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0F08F5F71CE9978200546D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F08F5FA1CE9978200546D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F08F5FC1CE9978200546D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F08F6021CEA4E1200546D4B /* Jay_Ruzesky.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Jay_Ruzesky.jpeg; path = ../../../animations_iphone/Jay_Ruzesky.jpeg; sourceTree = "<group>"; };
+		0F08F6041CEA4E1800546D4B /* Matthew_Wiebe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Matthew_Wiebe.jpeg; path = ../../../animations_iphone/Matthew_Wiebe.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		0F08F5EF1CE9978200546D4B /* ticTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				0F08F6021CEA4E1200546D4B /* Jay_Ruzesky.jpeg */,
+				0F08F6041CEA4E1800546D4B /* Matthew_Wiebe.jpeg */,
 				0F08F5F01CE9978200546D4B /* AppDelegate.swift */,
 				0F08F5F21CE9978200546D4B /* ViewController.swift */,
 				0F08F5F41CE9978200546D4B /* Main.storyboard */,
@@ -122,9 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F08F6031CEA4E1300546D4B /* Jay_Ruzesky.jpeg in Resources */,
 				0F08F5FB1CE9978200546D4B /* LaunchScreen.storyboard in Resources */,
 				0F08F5F81CE9978200546D4B /* Assets.xcassets in Resources */,
 				0F08F5F61CE9978200546D4B /* Main.storyboard in Resources */,
+				0F08F6051CEA4E1800546D4B /* Matthew_Wiebe.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
