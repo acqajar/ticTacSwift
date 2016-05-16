@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
     var player: Bool = true
     
     var score1: Int = 0
     var score2: Int = 0
-    
+
     
     
     @IBOutlet var player1Score: UILabel!
@@ -27,7 +27,44 @@ class ViewController: UIViewController {
     
     @IBOutlet var playerImage: UIImageView!
     
+    @IBOutlet var tableInput: UITableView!
     
+    
+    
+    
+    
+    var cellContent = ["3", "4", "5", "6"]
+
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return cellContent.count
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
+        
+        cell.textLabel?.text = cellContent[indexPath.row]
+        
+        return cell
+        
+    }
+    
+    
+    
+    @IBAction func rowInput(sender: AnyObject) {
+        
+        if tableInput.hidden == true{
+            tableInput.hidden = false
+        } else {
+            tableInput.hidden = true
+        }
+        
+        
+    }
+
     
     @IBAction func playerGrid(sender: AnyObject) {
        
@@ -53,6 +90,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         scoreLabel.text = "Start"
+         tableInput.hidden = true
         
         
         
